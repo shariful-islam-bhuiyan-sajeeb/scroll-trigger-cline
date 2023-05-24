@@ -33,7 +33,7 @@ const Page1 = () => {
   }, []);
 
   return (
-    <div>
+    <div className="img">
       <img src={dilDhadakne} ref={dil} alt="" />
       <img src={CID} ref={cid} alt="" />
     </div>

@@ -46,7 +46,7 @@ function App() {
 
   return (
     <div
-      className="App"
+      className="App max-w-[1800px] mx-auto"
       style={{
         background: "#6311A8",
       }}
