@@ -18,18 +18,18 @@ const Svg = ({ scrollResult, textChange }) => {
           textChange >= 0 && textChange < 16
             ? "#6311A8"
             : textChange >= 16 && textChange < 33
-            ? "#4D27CD"
-            : textChange >= 33 && textChange < 50
-            ? "#0E123A"
-            : textChange >= 33 && textChange < 50
-            ? "#16263B"
-            : textChange >= 50 && textChange < 65
-            ? "#16263B"
-            : textChange >= 65 && textChange < 82
-            ? "#124CA1"
-            : textChange >= 82 && textChange < 100
-            ? "#012C91"
-            : "#00834C",
+              ? "#4D27CD"
+              : textChange >= 33 && textChange < 50
+                ? "#0E123A"
+                : textChange >= 33 && textChange < 50
+                  ? "#16263B"
+                  : textChange >= 50 && textChange < 65
+                    ? "#16263B"
+                    : textChange >= 65 && textChange < 82
+                      ? "#124CA1"
+                      : textChange >= 82 && textChange < 100
+                        ? "#012C91"
+                        : "#00834C",
 
         boxShadow: textChange >= 65 && textChange < 82 ? "0 0 30px #222" : "",
         zIndex: -1,
@@ -38,7 +38,7 @@ const Svg = ({ scrollResult, textChange }) => {
     >
       <path
         id="Transparent_Ring"
-        class="transrg"
+        className="transrg"
         style={{
           opacity: 0.4,
           fill: "none",
@@ -53,8 +53,8 @@ const Svg = ({ scrollResult, textChange }) => {
 
       <path
         id="Opaque_Ring"
-        class="transrgwht"
-        stroke-dasharray="0,1000"
+        className="transrgwht"
+        trokeDasharray="0,1000"
         style={{
           fill: "none",
           stroke: "rgb(255, 255, 255)",
@@ -66,10 +66,10 @@ const Svg = ({ scrollResult, textChange }) => {
                 c-47.8,0-91-19.4-122.3-50.7"
       ></path>
 
-      <g id="Dots1" class="dots-nav">
+      <g id="Dots1" className="dots-nav">
         <g>
           <path
-            class="dotsst dotsfill1"
+            className="dotsst dotsfill1"
             style={{
               fill: textChange >= 0 ? circleFill : circleFill,
               opacity: 1,
@@ -79,7 +79,7 @@ const Svg = ({ scrollResult, textChange }) => {
         </g>
         <g>
           <path
-            class="dotsstro1"
+            className="dotsstro1"
             style={{
               opacity: 1,
               fill: "none",
@@ -91,10 +91,10 @@ const Svg = ({ scrollResult, textChange }) => {
           ></path>
         </g>
       </g>
-      <g id="Dots2" class="dots-nav">
+      <g id="Dots2" className="dots-nav">
         <g>
           <path
-            class="dotsst dotsfill2"
+            className="dotsst dotsfill2"
             style={{
               fill: textChange >= 16 ? circleFill : "#bdc3c7",
               opacity: 1,
@@ -105,7 +105,7 @@ const Svg = ({ scrollResult, textChange }) => {
 
         <g>
           <path
-            class="dotsstro2"
+            className="dotsstro2"
             style={{
               opacity: 1,
               fill: "none",
@@ -117,10 +117,10 @@ const Svg = ({ scrollResult, textChange }) => {
           ></path>
         </g>
       </g>
-      <g id="Dots3" class="dots-nav">
+      <g id="Dots3" className="dots-nav">
         <g>
           <path
-            class="dotsst dotsfill3"
+            className="dotsst dotsfill3"
             style={{
               fill: textChange >= 33 ? circleFill : "#bdc3c7",
               opacity: 1,
@@ -130,7 +130,7 @@ const Svg = ({ scrollResult, textChange }) => {
         </g>
         <g>
           <path
-            class="dotsstro3"
+            className="dotsstro3"
             style={{
               opacity: 1,
               fill: "none",
@@ -142,10 +142,10 @@ const Svg = ({ scrollResult, textChange }) => {
           ></path>
         </g>
       </g>
-      <g id="Dots4" class="dots-nav">
+      <g id="Dots4" className="dots-nav">
         <g>
           <path
-            class="dotsst dotsfill4"
+            className="dotsst dotsfill4"
             style={{
               fill: textChange >= 50 ? circleFill : "#bdc3c7",
               opacity: 1,
@@ -155,7 +155,7 @@ const Svg = ({ scrollResult, textChange }) => {
         </g>
         <g>
           <path
-            class="dotsstro4"
+            className="dotsstro4"
             style={{
               opacity: 1,
               fill: "none",
@@ -167,10 +167,10 @@ const Svg = ({ scrollResult, textChange }) => {
           ></path>
         </g>
       </g>
-      <g id="Dots5" class="dots-nav">
+      <g id="Dots5" className="dots-nav">
         <g>
           <path
-            class="dotsst dotsfill5"
+            className="dotsst dotsfill5"
             style={{
               fill: textChange >= 65 ? circleFill : "#bdc3c7",
               opacity: 1,
@@ -180,7 +180,7 @@ const Svg = ({ scrollResult, textChange }) => {
         </g>
         <g>
           <path
-            class="dotsstro5"
+            className="dotsstro5"
             style={{
               opacity: 1,
               fill: "none",
@@ -192,10 +192,10 @@ const Svg = ({ scrollResult, textChange }) => {
           ></path>
         </g>
       </g>
-      <g id="Dots6" class="dots-nav">
+      <g id="Dots6" className="dots-nav">
         <g>
           <path
-            class="dotsst dotsfill6"
+            className="dotsst dotsfill6"
             style={{
               fill: textChange >= 82 ? circleFill : "#bdc3c7",
               opacity: 1,
@@ -205,7 +205,7 @@ const Svg = ({ scrollResult, textChange }) => {
         </g>
         <g>
           <path
-            class="dotsstro6"
+            className="dotsstro6"
             style={{
               opacity: 1,
               fill: "none",
@@ -217,10 +217,10 @@ const Svg = ({ scrollResult, textChange }) => {
           ></path>
         </g>
       </g>
-      <g id="Dots7" class="dots-nav">
+      <g id="Dots7" className="dots-nav">
         <g>
           <path
-            class="dotsst dotsfill7"
+            className="dotsst dotsfill7"
             style={{
               fill: textChange >= 100 ? circleFill : "#bdc3c7",
               opacity: 1,
@@ -230,7 +230,7 @@ const Svg = ({ scrollResult, textChange }) => {
         </g>
         <g>
           <path
-            class="dotsstro7"
+            className="dotsstro7"
             style={{
               opacity: 1,
               fill: "none",
